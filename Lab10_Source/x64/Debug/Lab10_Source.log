@@ -1,0 +1,11 @@
+﻿  Lab10.cpp
+  StudentInfo.cpp
+C:\Users\willi\source\repos\lab10-williamcahill000\Lab10_Source\StudentInfo.cpp(16,46): error C2665: 'StudentInfo::StudentInfo': none of the 3 overloads could convert all the argument types
+C:\Users\willi\source\repos\lab10-williamcahill000\Lab10_Source\StudentInfo.h(16,1): message : could be 'StudentInfo::StudentInfo(StudentInfo &&)'
+C:\Users\willi\source\repos\lab10-williamcahill000\Lab10_Source\StudentInfo.h(16,1): message : or       'StudentInfo::StudentInfo(const StudentInfo &)'
+C:\Users\willi\source\repos\lab10-williamcahill000\Lab10_Source\StudentInfo.cpp(16,40): message : 'StudentInfo::StudentInfo(const StudentInfo &)': cannot convert argument 1 from 'StudentInfo *' to 'const StudentInfo &'
+C:\Users\willi\source\repos\lab10-williamcahill000\Lab10_Source\StudentInfo.cpp(16,46): message : Reason: cannot convert from 'StudentInfo *' to 'const StudentInfo'
+C:\Users\willi\source\repos\lab10-williamcahill000\Lab10_Source\StudentInfo.cpp(16,46): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\willi\source\repos\lab10-williamcahill000\Lab10_Source\StudentInfo.h(16,1): message : see declaration of 'StudentInfo::StudentInfo'
+C:\Users\willi\source\repos\lab10-williamcahill000\Lab10_Source\StudentInfo.cpp(16,46): message : while trying to match the argument list '(StudentInfo *)'
+  Generating Code...
